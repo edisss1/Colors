@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&family=Roboto:ital,wght@0,700;0,900;1,900&family=Source+Sans+3&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col h2 {
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    transition: backround 0.3s;
+}
+
+.col h2:hover {
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.col button {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: backround 0.3s;
+}
+.col button:hover {
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    
+}
